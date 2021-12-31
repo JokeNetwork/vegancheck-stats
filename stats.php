@@ -12,7 +12,7 @@ if (empty($apiname))
     $apiname = "0";
     $status = "0";
 }
-elseif ($apiname = "OFF-else")
+elseif ($apiname == "OFF-else")
 {
     $apiname = "fallback OFF";
     $status = "2";
