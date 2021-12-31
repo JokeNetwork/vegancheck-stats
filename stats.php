@@ -60,7 +60,7 @@ $additionalArray = array(
         'localization' => array(
             'lang' => $olang,
             'supported_lang' => $lang
-        )
+        ) 
     )
 );
 
