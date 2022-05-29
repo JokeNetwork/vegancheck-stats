@@ -22,7 +22,7 @@ VeganCheck.me's `stats.php` writes non-personal data to a `stats.json`-file ever
 
 ### How do you collect data?
   
-Everytime someone requests data from our [`script.php`](https://github.com/JokeNetwork/vegancheck.me/blob/main/script.php)-file (e.g. through the form on VeganCheck.me), `stats.php` generates data, as it's integrated into [`script.php:165`](https://github.com/JokeNetwork/vegancheck.me/blob/main/script.php#L165):
+Everytime someone requests data from our [`script.php`](https://github.com/JokeNetwork/vegancheck.me/blob/main/script.php)-file (e.g. through the form on VeganCheck.me), `stats.php` generates data, as it's integrated into [`script.php:397`](https://github.com/JokeNetwork/vegancheck.me/blob/main/script.php#L397):
 ```` php
 include("stats.php");
 ````
